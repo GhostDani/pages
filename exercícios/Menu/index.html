@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt=-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>SeuSite</title>
+
+</head>
+
+<body>
+    <header>
+       
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+            
+<menu id="itens"> <div class="logo img">
+            <img src="images/logo.png" alt="logo">
+            
+                    
+        </div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Loja</a></li>
+    </ul>
+</menu>
+   <search-bar>   
+                <form class="search-container">
+                      <input type="text" id="search-bar" placeholder="Busca">
+                      <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a></form></search-bar> 
+                    </header>
+    <main>
+        
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, deleniti? Quisquam, inventore. Autem quasi ab nam rerum eius totam corrupti provident, harum velit, dicta maxime repellat quidem voluptate voluptates consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nisi, minima dolorem doloribus voluptas voluptatem pariatur, saepe temporibus, dolores repudiandae eaque? Esse eaque ipsam ab nihil animi porro quis earum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, inventore. Nisi dolore neque tenetur modi vel quam qui amet dolorum non praesentium perspiciatis nemo sequi nostrum quibusdam sit, deserunt ullam.</p>
+
+        </article>
+        
+    </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else{
+            itens.style.display = 'block'
+           }
+
+        }
+    </script>
+</body>
+</html>
